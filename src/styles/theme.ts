@@ -1,21 +1,27 @@
 export const theme = {
   colors: {
-    primary: '#0070f3',
+    navy: '#192A56',
+    emerald: '#2ECC71',
+    sun: '#F1C40F',
+    white: '#FFFFFF',
+    gray: '#CCCCCC'
   },
   fonts: {
-    body: 'system-ui, sans-serif',
-    heading: 'system-ui, sans-serif',
-    monospace: 'Menlo, monospace',
+    body: "'Roboto', sans-serif",
+    heading: "'Montserrat', sans-serif",
+    description: "'Open Sans', monospace",
   },
   sizes: {
-    heading: '1.5rem',
-    subheading: '1.25rem',
-    body: '1rem',
-    small: '0.75rem',
+    heading: '2rem',
+    subheading: '1.5rem',
+    body: '1.25rem',
+    small: '1rem',
   },
   fontWeights: {
-    body: 400,
-    heading: 700,
+    thin: 100,
+    light: 300,
+    normal: 400,
     bold: 700,
+    black: 900,
   }
 }

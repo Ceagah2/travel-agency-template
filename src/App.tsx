@@ -1,9 +1,11 @@
+import { Container } from "./components/Container"
+
 function App() {
 
   return (
-    <>
-      <h1>Hello initial world</h1>
-    </>
+    <Container>
+        Hello world
+    </Container>
   )
 }
 
